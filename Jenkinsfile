@@ -13,6 +13,8 @@ pipeline {
         stage('Unzip Talend Job') {
             steps {
                 bat 'powershell -Command "Expand-Archive -Force %TALEND_ZIP% %UNZIP_DIR%"'
+                bat 'dir %UNZIP_DIR%'
+                bat 'dir %UNZIP_DIR%\\CustomerLoggerJob_0.1'
             }
         }
         stage('Run Talend Job') {
