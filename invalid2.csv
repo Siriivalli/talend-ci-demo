@@ -1,0 +1,5 @@
+order_id,customer_id,product_id,product_name,order_date,quality,price,total_amount
+ORD004,CUST004,P004,Smartwatch,04-06-2023,0,249.99,0.0
+ORD005,CUST005,P005,Tablet,05-06-2023,-1,499.99,-499.99
+ORD007,CUST007,P007,Camera,07-06-2023,0,299.99,0.0
+ORD009,CUST009,P009,Keyboard,09-06-2023,-5,49.99,-249.95001
